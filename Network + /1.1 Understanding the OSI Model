@@ -1,0 +1,54 @@
+OSI - Open System Interconnections Refrence Model
+its the guideline -- describe the way to describe the way that the data moves across the network
+its consist 7 layers
+there are unique protocol at every layer
+its the commom langauge for any IT to decribe how data is progrossing from the beginning of the traffic flow to the very end
+1 commom way to memorized is layer - nimonic- all people seem to need data processing
+layer 7 - Application -- your eyes information on screen
+layer 6 - Presentaiton -- Application encryption(SSL/TLS) 
+layer 5 - Session -- control protocols, tunneling protocols
+layer 4 - Transport -- TCP segment , UDP datagram ,port number asso to them 
+layer 3 - Network -- IP address, router,packets
+layer 2 - Data Link -- frames, MAC address, Extended Unique Indentifier(EUI-48,EUI-64),Switch
+layer 1 - Physical -- cables,fiber and the single itself
+
+Layer 1 - Physical Layer
+->The physic of the network
+-Signaling, cabling, connectors
+-This layer isn't about protocols
+-> if Someone tells they have physical layer problem
+- fix cabling,punch-downs, etc
+- Run loopback test, test/replace cables, swap adapter cards
+
+Layer 2 - Data link 
+-> The basic network laguage - foundational of communications
+-> Data Link Control (DLC) protocols
+-MAC(Media Access Controls) address on Ethernet -layer 2 addresses
+-switches make their forwading decision based on these mac address, sometimes refer switching layer
+
+Layer 3 - Network
+-> refer as routing layer
+-> its asscoiating with IP addresses - any communication based on IP is on Layer 3
+-> Frames are freagments into smaller pices to move those between diffrent types of networks
+- if data is is moved from ethernet off to WAN network , and back to ethernet - data is being fragmentated and its occuring at layer 3
+
+Layer 4 - Transport 
+-> refer as post office layer
+- how data is being delivered and wher it is being delivered into system
+-> the protocols used a at layer 4 is TCP - Transmission Control Protocol) and UDP (User Datagram Protocol)
+
+Layer 5 - Session 
+-> Communication Management - (start-stop-restart) - its design to start the communication between one end point to another
+-> Control protocol, tunneling protocol - ask to talk - which will set up seesion and begin commumunication
+
+Layer 6 - Presentation
+-> Character encoding - take data and put in proper way so we can understand
+-> Often combined with apllication layer 
+
+Layer 7 - Application
+->the layer we see
+-> HTTP,FTP,DNS,POP3 -- using any brower
+
+
+
+
