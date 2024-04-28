@@ -1,0 +1,203 @@
+If you're physically connecting to a network
+0:03
+and you're not using copper, then you're
+0:05
+probably using fiber optics.
+0:07
+This is network communication using light
+0:10
+to communicate instead of electrical signals.
+0:12
+This means there's no radio frequency
+0:14
+that someone could listen in to, to be able to hear what's
+0:17
+happening on the network.
+0:19
+And because we're communicating with light,
+0:21
+we can send the signal over very long distances
+0:24
+without having that signal degrade.
+0:26
+Fiber optics are also immune to radio frequency interference,
+0:30
+which makes them perfect for environments
+0:31
+where copper cable couldn't be used.
+Closeup
+0:34
+Here's a close up of some fiber optic connectors.
+0:37
+You can see where the connector is
+0:38
+plugging into the equipment is quite large.
+0:40
+It has a large protector around the fiber, itself.
+0:43
+The fiber is, actually, inside is very small and very thin.
+Materials
+0:48
+We use fiber optic cables by sending light
+0:50
+from one end of the cable to the other.
+0:52
+This light is often created using an LED,
+0:55
+but it might also use a laser.
+0:57
+The light is sent inside of the fiber,
+0:59
+finds its way through, and ultimately
+1:01
+is received on the other side.
+1:04
+This fiber optic cable is made of many different layers.
+1:07
+The internal layer is the core of the fiber optic.
+1:10
+This is a highly reflective core,
+1:12
+which allows the light to come into the fiber
+1:14
+and bounce around the fiber until it makes
+1:17
+its way to the other side.
+1:18
+Protecting the core is a cladding.
+1:21
+The cladding is a low refractive index,
+1:23
+which means if any light does leak out into the cladding,
+1:25
+it won't be reflected back into the core.
+1:28
+And on the outside is a protective coating
+1:30
+that is usually colored to designate what type of fiber
+1:33
+might be on the inside.
+SC Connector
+1:36
+Here's a close up of an SC connector.
+1:38
+Inside of this SC connector is a fiber optic.
+1:41
+You can see in the very middle is a very light colored fiber,
+1:45
+and all around that is a protective ferrule.
+1:48
+This allows you to plug in this connector
+1:50
+and unplug it without damaging the fiber that
+1:53
+might be on the inside.
+Multimode
+1:55
+When you're installing fiber in your facility
+1:57
+or connecting two devices with a fiber optic connection,
+2:00
+you're probably using one of two different types
+2:03
+of fiber, a multimode fiber and a single-mode fiber.
+2:07
+Multimode fiber, usually, is for short-range communication,
+2:10
+often up to two kilometers or so.
+2:12
+And it often uses an LED or some other inexpensive light source.
+2:17
+We call this multimode fiber because the core
+2:19
+of the fiber, itself, is larger than the wavelength of light
+2:23
+that is being sent through it.
+2:24
+And you'll find that the light is reflecting
+2:27
+through multiple modes as it goes from one side
+2:30
+to the other.
+2:31
+In this case, you can see an example of different modes
+2:34
+as they're passing through this fiber.
+Singlemode
+2:37
+The other type of fiber you might see is single-mode fiber.
+2:40
+Single-mode fiber has a smaller core than multimode fiber,
+2:44
+and it only allows one mode of light
+2:46
+to transmit through that core.
+2:48
+We often see single-mode fiber used for very long distances.
+2:52
+Some implementations of ethernet can run over single-mode fiber
+2:56
+up to 100 kilometers without needing to recreate,
+2:59
+or retransmit, that light.
+3:01
+To be able to send a signal over that very long distance,
+3:05
+we need a light that's stronger than an LED, which
+3:08
+is why you'll commonly see laser beams
+3:10
+being used to send traffic over single-mode fiber.
+3:14
+This is why the cost of single-mode equipment
+3:16
+and single-mode fiber, itself, tends
+3:18
+to be more expensive than multimode fiber.
+3:22
+
+
+Fiber optics revolutionize network communication by transmitting data using light instead of electrical signals. This method offers several advantages over traditional copper cabling, making it ideal for various networking applications.
+
+One significant advantage of fiber optics is the absence of radio frequency emissions, enhancing security by preventing eavesdropping on network communications. Additionally, fiber optic signals can travel long distances without signal degradation, making them suitable for extensive network infrastructures.
+
+Fiber optic cables consist of multiple layers designed to guide and protect the transmitted light. The core, the innermost layer, is highly reflective, allowing light to bounce within it until it reaches the other end. Surrounding the core is the cladding, which has a lower refractive index to prevent light from escaping. Finally, the outermost layer is a protective coating, often colored to indicate the type of fiber.
+
+Two common types of fiber optic cables are multimode fiber and single-mode fiber. Multimode fiber, with a larger core diameter, is typically used for short-range communication, such as within buildings, and employs inexpensive light sources like LEDs. In contrast, single-mode fiber has a smaller core diameter and is suitable for long-distance transmission, with some implementations supporting distances of up to 100 kilometers. Single-mode fiber often utilizes laser light sources for stronger signals, but it tends to be more expensive than multimode fiber due to its specialized requirements.
+
+Fiber optic connectors, such as SC connectors, facilitate the connection between fiber optic cables and networking equipment. These connectors feature a protective ferrule surrounding the delicate fiber, allowing for secure connections without damaging the cable.
+
+Overall, fiber optics offer a reliable, high-speed, and secure means of network communication, making them indispensable in modern networking infrastructure, especially for long-distance and high-bandwidth applications.
+
+
+
+
+Fiber Optic Cables for Network Communication
+This video explains fiber optic cables used for network communication.
+
+Key Points
+
+Fiber optics use light pulses instead of electrical signals for data transmission.
+Offers several advantages over copper cables:
+Immune to radio frequency interference (RFI), making them ideal for noisy environments.
+Secure - no radio frequency to eavesdrop on.
+Lower signal degradation over long distances.
+Fiber Optic Cable Construction
+
+Core: The inner layer that carries the light signal. It's highly reflective to bounce light and guide it through the cable.
+Cladding: Surrounds the core with a lower refractive index. This ensures light stays in the core and reflects back in if it leaks slightly.
+Protective Coating: The outermost layer that protects the cable from physical damage and identifies the fiber type (usually colored).
+Fiber Optic Connectors
+
+SC connector is an example, with a ferrule protecting the delicate fiber inside.
+Allows connecting and disconnecting fiber optic cables without damaging the fiber.
+Types of Fiber Optic Cables
+
+Multimode Fiber:
+Used for shorter distances (up to 2 km).
+Larger core diameter allows multiple light modes to propagate.
+Often uses LEDs as light sources (less expensive).
+Single-Mode Fiber:
+Used for longer distances (up to 100 km).
+Smaller core diameter allows only one light mode.
+Uses lasers as light sources (stronger signal for long distances, but more expensive).
