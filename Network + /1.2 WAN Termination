@@ -20,3 +20,132 @@ You might see blinking lights or status lights on the smartjack, but you likely 
 Summary
 
 Understanding the dmarc and CPE helps pinpoint the cause of internet connectivity problems. The dmarc separates the provider's responsibility from yours, and the CPE is the equipment you manage. Smartjacks can further aid troubleshooting by allowing remote diagnostics by the provider.
+
+
+
+
+If you're using services from a wide area network
+0:04
+provider or an internet service provider,
+0:07
+there needs to be a physical location that
+0:10
+designates the connection point between the provider's network
+0:13
+and your internal network.
+0:15
+We refer to this location as the demarcation point,
+0:19
+or simply the dmarc.
+0:21
+This dmarc might be a location that's connected to your home.
+0:24
+For example, you could have a telephone network interface
+0:27
+or a similar box that's provided by your internet service
+0:30
+provider and that box is the demarcation point.
+0:34
+If you're in a company, there's usually
+0:36
+a location inside of the building that's considered
+0:39
+the demarcation point.
+0:40
+Usually everyone knows where the dmarc is located.
+0:43
+And when somebody needs to install a new wide area network
+0:46
+connection, they're usually sent to the room
+0:48
+that we consider to be the dmarc.
+0:50
+The location of this dmarc is important, especially
+0:54
+when problems are occurring, so you
+0:55
+can understand whether the problem is on the provider
+0:58
+side of the dmarc or whether it's on your side of the dmarc.
+1:03
+Usually, if it's on your side, you
+1:05
+have your own equipment, your own routers,
+1:07
+and it's on your own premises.
+1:09
+We often refer to this as customer premises equipment,
+1:13
+or CPE.
+1:14
+And you'll hear this often referred
+1:16
+to as the customer prem.
+1:17
+This is where you would then connect to your network
+1:20
+to do troubleshooting.
+1:21
+If you can connect to the provider side on the dmarc
+1:25
+and perform all of the same tests and still have a problem,
+1:29
+then you know that the issue is somewhere on the provider side.
+1:33
+It's, obviously, much easier for the provider
+1:35
+if they don't have to come into your building,
+1:38
+into a room to the dmarc location
+1:40
+to be able to perform this troubleshooting.
+1:43
+Instead, they'll put in specialized equipment
+1:45
+that they're able to control remotely.
+1:47
+Often this equipment is a smartjack.
+1:50
+This is technically a Network Interface Unit, or NIU.
+1:54
+You'll see these on the wall.
+1:55
+They'll usually have blinking lights and status lights.
+1:58
+And they're usually in a locked container with limited access
+2:02
+because this is equipment owned by the network provider.
+2:05
+This is, obviously, much more intelligent than just
+2:08
+having a single RJ45 connector.
+2:10
+This is a powered system that is monitoring and is
+2:13
+able to provide diagnostics remotely,
+2:16
+so the provider can connect to the smartjack,
+2:18
+run their own tests, and determine
+2:20
+if the problems that are occurring
+2:22
+are something that's in the provider side of the network,
+2:25
+or if it's something that might be on your side of the network.
+2:28
+Even though you may not have physical access
+2:30
+to the smartjack, you are able to view the smartjack
+2:33
+through these windows.
+2:35
+And very often, you're able to see alarm notifications
+2:38
+and other status lights that might help you understand more
+2:41
+about the connectivity that you have to that wide area network
+2:44
+provider.
+
+
