@@ -1,5 +1,5 @@
 OSI - Open System Interconnections Refrence Model
-its the guideline -- describe the way to describe the way that the data moves across the network
+its the guideline -- describe the way that the data moves across the network
 its consist 7 layers
 there are unique protocol at every layer
 its the commom langauge for any IT to decribe how data is progrossing from the beginning of the traffic flow to the very end
@@ -50,5 +50,13 @@ Layer 7 - Application
 -> HTTP,FTP,DNS,POP3 -- using any brower
 
 
+The OSI (Open Systems Interconnection) Reference Model serves as a comprehensive framework for understanding how data traverses across a network. It delineates the process into seven distinct layers, each with its own unique protocols and functions, facilitating communication between different devices and systems. Let's break down each layer:
 
+Physical Layer: This layer deals with the physical aspects of the network, including signaling, cabling, and connectors. It's all about the raw transmission of data without regard to any specific protocols. When troubleshooting physical layer issues, tasks such as fixing cabling, checking connectors, and running loopback tests are common.
+Data Link Layer: Here, the basic language of the network is established, forming the foundation of communication. Data Link Control (DLC) protocols govern this layer, and MAC (Media Access Control) addresses are assigned to devices, defining their identities on the network. Switches use these MAC addresses to make forwarding decisions, hence the term "switching layer."
+Network Layer: Often referred to as the routing layer, this level is associated with IP addresses. Any communication based on IP operates at this layer. Data is fragmented into smaller pieces to facilitate movement between different types of networks. For instance, when data moves from an Ethernet network to a WAN (Wide Area Network) and back to Ethernet, fragmentation occurs at Layer 3.
+Transport Layer: This layer, also known as the post office layer, manages how data is delivered and where it's delivered within the system. Key protocols at this layer include TCP (Transmission Control Protocol) and UDP (User Datagram Protocol), which govern reliable and connectionless data transmission, respectively.
+Session Layer: Responsible for communication management, this layer handles the establishment, maintenance, and termination of sessions between endpoints. Control protocols and tunneling protocols are utilized to initiate communication sessions.
+Presentation Layer: Character encoding and data formatting are the focus of this layer, ensuring that data is translated into a readable format. It often works in conjunction with the application layer to prepare data for presentation to the user.
+Application Layer: This is the layer that users interact with directly. It encompasses various protocols such as HTTP, FTP, DNS, and POP3, enabling services like web browsing, file transfer, domain name resolution, and email communication.
 
