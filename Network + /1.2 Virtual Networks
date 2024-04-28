@@ -299,6 +299,23 @@ Key Components of NFV
 Hypervisor: Manages VMs and allocates resources.
 Virtual Switch (vSwitch): Acts like a physical switch in the virtual world, connecting VMs.
 Virtual Network Interface Card (vNIC): Network adapter for VMs to communicate with the network.
+
+
+
+
+In the past few years, how we handle data and set up networks has undergone significant changes. Previously, we used server farms with many individual servers, all connected through complex network setups.
+
+But with the advent of virtual servers, we've discovered we don't need numerous physical servers anymore. Instead, we can create virtual servers within a single physical device. This shift raises questions about how our network infrastructure adapts to this change.
+
+When we replace physical servers with virtual ones, we transition from physical networks to virtual ones, a concept known as network function virtualization (NFV). This means all network devices, such as switches, routers, VLANs, and firewalls, now exist within a virtual environment managed by a hypervisor.
+
+This transition not only maintains previous functionality but often enhances it. For instance, deploying new network elements becomes as simple as a few clicks within the hypervisor interface, offering flexibility and efficiency. The hypervisor serves as a central control point, managing all virtual systems, operating systems, and network connections.
+
+One key component in this virtual network setup is the virtual switch (vSwitch), which replaces physical switches. These virtual switches offer similar functionalities, like setting up forwarding options, link aggregation, port mirroring, and more, all managed through the hypervisor.
+
+Each virtual machine within this setup also requires a virtual network interface card (vNIC) to communicate with the network. These vNICs can be configured and customized as needed, all through the hypervisor interface.
+
+Overall, this shift to virtualized network environments streamlines management, enhances flexibility, and enables more efficient resource utilization, all orchestrated through the hypervisor's centralized control.
 Summary
 
 NFV offers a more scalable, efficient, and manageable way to deploy network functions. It simplifies network management by virtualizing network devices and centralizing control.
