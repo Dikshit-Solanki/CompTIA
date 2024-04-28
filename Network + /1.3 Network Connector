@@ -1,0 +1,352 @@
+One popular fiber optic connector
+0:04
+is the LC or local connector.
+0:06
+This connector has two different fibers inside of it,
+0:10
+usually this is a send and receive.
+0:12
+And you can see that it plugs in with these locking connectors
+0:16
+at the top.
+0:16
+To be able to remove this from a connector,
+0:19
+you have to push down and then you're
+0:21
+able to remove it from the interface.
+0:23
+These are relatively small connectors.
+0:25
+And because of that, they've become pretty popular
+0:28
+on our most recent routers and switches,
+0:30
+because you can fit so many of them
+0:32
+into such a relatively small space.
+0:35
+Some connectors that are slightly larger than the LC are
+0:39
+the ST connectors, the straight tip connectors.
+0:42
+And this is a connector type that's been around
+0:44
+for quite some time.
+0:45
+These connectors also lock in place,
+0:47
+but they use bayonet connectors.
+0:49
+So you plug them in and slightly twist them,
+0:52
+and they're locked in place.
+0:53
+You have to untwist and then pull
+0:55
+to be able to remove an ST connector from a device.
+1:00
+Subscriber connectors are these square connectors.
+1:03
+In fact, sometimes you'll hear the subscriber connector
+1:06
+or SC described as a square connector,
+1:09
+because they do have this relatively square face.
+1:12
+When you're plugging in SC connectors,
+1:14
+they might be connected individually
+1:16
+as separate fibers, or you may be plugging into fibers
+1:19
+simultaneously.
+1:21
+These lock into place with a unique locking mechanism
+1:24
+that once you push it in, is locked in place.
+1:27
+You have to pull back on the spring-loaded connector
+1:30
+around the fiber to release it from that interface.
+1:34
+And the last type of fiber connector we need to know
+MT-RJ - Mechanical Transfer Registered Jack
+1:36
+for the Network+ exam is the MT-RJ.
+1:40
+This is the mechanical transfer registered jack.
+1:43
+You can see that it is a very small connector.
+1:45
+It does have two tiny fiber connectors at the end of it.
+1:49
+And of the other connectors, this one probably
+1:51
+is the one with the smallest amount of real estate
+1:54
+that it takes on a switch or router.
+1:57
+If a manufacturer is looking to fit the maximum number of fiber
+2:00
+connectors into the smallest available space,
+2:03
+then they're probably going to use this MT-RJ connector.
+2:07
+Very similar to the LC connector,
+2:09
+the MT-RJ has a locking mechanism at the top.
+2:12
+And when you want to remove it from the interface,
+2:14
+you push down so that lock disengages,
+2:17
+and then you can remove it from the interface.
+2:20
+One of the challenges with fiber optics
+UPC and APC
+2:22
+is that we're dealing with light as a transfer mechanism.
+2:26
+And so there's all sorts of physics
+2:28
+that go into the idea of making sure the optimal amount
+2:32
+of light is getting from the beginning
+2:34
+to the very end of the connection.
+2:36
+One very important statistic is the return loss.
+2:40
+This is how much light is reflected back to the source
+2:43
+and thereby creating an inefficiency
+2:45
+in the amount of light that you're
+2:47
+able to send to the other side.
+2:49
+To be able to minimize the amount of return loss,
+2:52
+we have different connectors that we might use.
+2:54
+One of these connector types is a UPC connector
+2:57
+or an ultra-polished connector where
+2:59
+the ferrules are connecting together at a 0-degree angle.
+3:03
+They are facing each other directly.
+3:06
+This type of connector tends to have a high return loss.
+3:09
+One type of connector that has a lower return loss
+3:12
+is an APC or angled polished connector,
+3:16
+because there is a very slight 8-degree angle
+3:19
+between the connector types.
+3:21
+And when you're using this type, instead
+3:23
+of having all of that light reflected directly
+3:26
+back to the source, it is reflected back at an angle away
+3:29
+from the source.
+3:31
+Here's a cross section of a UPC connector.
+UPC (Ultra-polished connectors)
+3:34
+You can see that these two sides are connecting right
+3:37
+in the middle at 0 degrees.
+3:39
+This means that the light going out and hitting that connection
+3:42
+is reflecting back a little bit of that light back
+3:46
+to the original station, creating the high return loss.
+3:49
+This is different than an APC connector
+APC (Angle-polished connectors)
+3:52
+where there's a slight 8-degree angle where
+3:54
+those two fibers meet.
+3:56
+This means that the light that is moving down the fiber
+3:58
+is hitting that angle.
+4:00
+And some of that light is being reflected back,
+4:02
+but it's being reflected back at an angle,
+4:05
+giving you much less of a return loss than something
+4:09
+that is a UPC connection.
+4:12
+Now that we looked at fiber connectors,
+RJ11 connector
+4:13
+let's have a look at some copper connections.
+4:16
+One that's very common with voice communication
+4:18
+is an RJ11 connector.
+4:20
+That RJ stands for registered jack type 11.
+4:24
+This is a sixth-position connector.
+4:26
+But only two of the conductors are actually
+4:29
+inside of this cable.
+4:31
+Sometimes you'll see this written as a 6P2C.
+4:34
+You can see all six of these positions in this image,
+4:38
+but you can see that only two of them
+4:39
+have conductors inside of them.
+4:41
+If you run into a cable or a connector that has the six
+4:45
+positions, but four of those conductors are in use,
+4:48
+we commonly also refer to this as an RJ11,
+4:51
+but technically it's an RJ14 because
+4:55
+of that slight difference.
+4:56
+You'll commonly see these connectors
+4:58
+used for things like DSL connections or analog telephone
+5:01
+connections.
+5:03
+We commonly use a slightly larger connector
+5:05
+for our ethernet connections.
+5:07
+This is an RJ45 connector or register jack type 45.
+5:12
+In the case of an RJ45, there are eight positions.
+5:16
+And all eight conductors are used
+5:18
+for these ethernet connections.
+5:19
+Sometimes it's difficult to differentiate
+5:22
+between an RJ11 and an RJ45, because they are constructed
+5:26
+very similarly, but the size of the connectors
+5:29
+is quite different.
+5:31
+Here's a view of both RJ11 and RJ45 connectors
+5:35
+on the same device.
+5:36
+You can see the RJ11 is slightly smaller than the RJ45.
+5:41
+And sometimes, when you're troubleshooting,
+5:43
+you'll find that people might plug in an RJ11 cable
+5:46
+into an RJ45 connector, which obviously is not
+5:50
+going to work properly.
+5:52
+Most of those times you can easily unplug from the RJ45,
+5:56
+plug into the correct RJ11, and the user
+5:58
+will be up and running.
+F-connector
+6:01
+If you're using a cable modem, then you're
+6:02
+probably connecting using a coax cable from the cable company.
+6:07
+This coaxial connector is called an F-connector.
+6:10
+This is the type of connector you will find on a cable modem.
+6:13
+And it follows the standards associated with DOCSIS or Data
+6:16
+Over Cable Service Interface Specification.
+6:20
+Many times this is an RG-6 type of coax cable.
+6:23
+And the connector at the end is most commonly
+6:26
+threaded to make sure that once that cable is
+6:28
+inserted that it can't easily be removed from that connection.
+6:33
+Here's a close up of the threaded F-connector
+6:36
+on the cable modem and the F-connection
+6:38
+that's on the cable itself.
+6:40
+You would insert this cable and twist it
+6:42
+until it's tight, which will help keep it in that connection
+6:46
+and won't allow it to easily pull out of that cable modem.
+6:50
+
+
+
+
+
+
+The variety of connectors used in network communication, both for fiber optics and copper cables, demonstrates the adaptability and versatility of modern networking equipment. Each connector type serves a specific purpose and offers unique features to meet various networking requirements.
+
+The LC (Local Connector), characterized by its compact size and locking mechanism, is a popular choice for routers and switches due to its ability to accommodate multiple connectors in a small space. Similarly, the ST (Straight Tip) connector, known for its bayonet connectors, offers secure connections and has been a staple in networking for some time.
+
+The SC (Subscriber Connector), often referred to as a square connector, features a unique locking mechanism that ensures a secure connection. Additionally, the MT-RJ (Mechanical Transfer Registered Jack) connector, with its small size and locking mechanism, is ideal for maximizing the number of fiber connections in limited space.
+
+The choice between UPC (Ultra-polished connectors) and APC (Angle-polished connectors) depends on the desired return loss and overall performance of the fiber optic connection. UPC connectors, with a 0-degree angle, provide high return loss, while APC connectors, with an 8-degree angle, offer lower return loss by reflecting light away from the source.
+
+For copper connections, the RJ11 connector is commonly used for voice communication, while the RJ45 connector is standard for Ethernet connections. These connectors differ in size and the number of conductors they accommodate, making it essential to use the correct connector for each application.
+
+Finally, the F-connector, commonly found on coaxial cables used for cable modem connections, features a threaded design to ensure a secure connection and prevent accidental disconnection.
+
+Understanding the various connector types and their characteristics is crucial for effectively designing and maintaining network infrastructures, ensuring reliable and efficient communication across diverse environments.
+
+
+
+
+Fiber Optic Connectors and Return Loss
+This video discusses fiber optic connectors and a key factor affecting their performance: return loss.
+
+Fiber Optic Connectors
+
+Various types of connectors are used for fiber optic cables, including:
+LC (local connector) - popular due to small size, good for high-density applications on routers and switches.
+ST (straight tip) - older design, uses bayonet lock.
+SC (subscriber connector) - square-shaped, locks with a push-pull mechanism.
+MT-RJ (mechanical transfer registered jack) - very small connector with two fibers, ideal for maximizing fiber count in limited space.
+UPC vs. APC Connectors
+
+A critical factor in fiber optic connections is minimizing return loss, which is the amount of light reflected back to the source.
+Two common connector types address return loss:
+UPC (ultra-polished connector) - has a flat ferrule surface where the fibers meet at a 0-degree angle. This can lead to higher return loss.
+APC (angled polished connector) - features an 8-degree angle at the connection point. This angled surface reflects light away from the source, reducing return loss compared to UPC connectors.
+Benefits of APC Connectors
+
+Lower return loss compared to UPC connectors, which improves signal efficiency and performance.
+Particularly important for high-precision applications like analog video, DWDM (dense wavelength-division multiplexing), and long-distance transmissions.
+Key points:
+
+Choose the appropriate connector type (UPC or APC) based on your specific needs and application requirements.
+APC connectors offer an advantage in minimizing return loss for critical applications.
+
