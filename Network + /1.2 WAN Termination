@@ -1,0 +1,22 @@
+Understanding Demarcation Point (Dmarc) and Customer Premises Equipment (CPE)
+This video explains the demarcation point (dmarc) and customer premises equipment (CPE) which are important concepts to understand when troubleshooting internet connection issues.
+
+Demarcation Point (Dmarc)
+
+The dmarc is the physical point where your internal network connects to the wide area network (WAN) provider's network.
+It can be a box located outside your home or a designated location inside your company building.
+Knowing the dmarc location helps identify where the problem lies during troubleshooting - on the provider's side or yours.
+Customer Premises Equipment (CPE)
+
+CPE refers to the equipment you own and manage on your side of the dmarc.
+This typically includes routers and other networking devices.
+Troubleshooting often involves checking your CPE first.
+Smartjack
+
+In some cases, your service provider might install a smartjack at the dmarc.
+This is an intelligent Network Interface Unit (NIU) that allows remote monitoring and diagnostics.
+The provider can use the smartjack to determine if the issue is on their side or yours.
+You might see blinking lights or status lights on the smartjack, but you likely won't have physical access to it.
+Summary
+
+Understanding the dmarc and CPE helps pinpoint the cause of internet connectivity problems. The dmarc separates the provider's responsibility from yours, and the CPE is the equipment you manage. Smartjacks can further aid troubleshooting by allowing remote diagnostics by the provider.
