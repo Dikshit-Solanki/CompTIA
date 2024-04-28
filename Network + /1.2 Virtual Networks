@@ -1,0 +1,305 @@
+The way we've managed data has changed rapidly
+0:05
+over the last few years, and the way that we've
+0:08
+deployed networks has changed along with that.
+0:11
+We used to have server farms that
+0:12
+would have individual computers and individual servers inside
+0:16
+of them.
+0:16
+Let's say that we had a server farm
+0:18
+with over 100 individual servers all working and connected
+0:23
+together with the network.
+0:24
+This enterprise network is usually
+0:26
+connecting all of these devices using
+0:28
+multiple VLANs, redundant connections,
+0:31
+and high-speed communication.
+0:33
+But with virtual servers, we've realized
+0:35
+that we don't need 100 separate physical servers.
+0:39
+Instead, we could create 100 virtual servers
+0:42
+that may be located within one single physical device.
+0:46
+So this brings up the question, that if we're
+0:48
+collapsing all of these servers into one
+0:51
+single physical device, what happens to our network?
+0:56
+If we're replacing physical servers with virtual servers,
+1:00
+then we're taking all of our physical network
+1:02
+and we're replacing it with a virtual network.
+1:05
+This is called network function virtualization, or NFV,
+1:09
+where we'll take all of our network
+1:11
+devices and the entire network infrastructure,
+1:13
+and we'll move it directly into the hypervisor.
+1:16
+This means that all of our switching, all of our routing,
+1:19
+our VLANs, our firewalls, and anything else on the network
+1:23
+infrastructure are now contained within this virtual system.
+1:27
+This not only provides us with the same functionality
+1:30
+we had when we had physical switches and physical routers,
+1:33
+but in many cases, provides us with additional capabilities.
+1:37
+For example, when you need a new switch or a new router,
+1:40
+you don't have to go out, purchase a new router,
+1:42
+put it into a rack, power it up and then physically connect
+1:46
+those devices.
+1:47
+Instead, you simply click a few buttons inside
+1:49
+of the hypervisor, and you can drag and drop
+1:52
+a brand new router or a brand new switch
+1:54
+into your network infrastructure.
+1:56
+This means that you could have many different kinds
+1:58
+of deployment options for your virtual machines,
+2:01
+your containers, you can add fault tolerance
+2:03
+and different monitoring services, all from this network
+2:07
+function virtualization.
+2:09
+As with most virtual systems, everything starts and ends
+2:12
+with the hypervisor.
+2:13
+This is our Virtual Machine Manager, or VMM.
+2:17
+This Virtual Machine Manager is responsible for managing
+2:20
+all of the operating systems, all of the virtual systems,
+2:23
+and all of our virtual network connections
+2:25
+that we're deploying on this virtual system.
+2:27
+The hypervisor is responsible for managing access to the CPU,
+2:31
+to memory, and to the network for all
+2:34
+of those virtual systems, but it can all
+2:36
+be managed from this one Central Management Console.
+2:39
+Sometimes you'll hear this referred
+2:41
+to as a single pane of glass, because instead of visiting all
+2:44
+of those individual virtual systems,
+2:47
+you simply go to one management screen
+2:49
+and you can control everything.
+2:51
+Here's a better view of this hypervisor.
+2:54
+You can see this one hypervisor has two different types
+2:57
+of virtual regions.
+2:59
+We also have different virtual machines running
+3:01
+in each of those regions.
+3:03
+You can see that there are 24 processors inside of this one
+3:07
+single physical device that's managed by this hypervisor,
+3:10
+with 47 gigahertz of cycles available for the CPU, 90
+3:15
+gig of memory, and you can see all
+3:17
+of the virtual machines that are managed
+3:19
+by this single hypervisor.
+3:22
+Now that we know where all of our virtual machines
+3:24
+are located, and the device that is managing
+3:26
+those virtual machines, now we need
+3:29
+to have a network that connects all of those virtual machines
+3:32
+together.
+3:32
+We connect that through a vSwitch, or a virtual switch.
+3:36
+We're simply taking the physical switch that we used to have,
+3:39
+and we've moved it into the virtual world.
+3:42
+We can still do all of the things
+3:44
+that we used to do on our physical switch.
+3:46
+We know how to set all of the forwarding options.
+3:48
+We can configure link aggregation
+3:51
+between different virtual switches and different servers.
+3:54
+We can do port mirroring and NetFlow
+3:56
+to provide additional management capabilities,
+3:58
+even though this is contained within a virtual environment.
+4:02
+And deploying one of these virtual switches
+4:04
+from the hypervisor is simple.
+4:06
+You simply drag and drop, or click a button,
+4:08
+and you can deploy one of these virtual switches.
+4:11
+This can also be automated through the hypervisor's API
+4:15
+so that this can be deployed and removed automatically
+4:18
+using orchestration.
+4:20
+Here's a better view of this virtual switch.
+4:23
+There's the picture of the virtual switch.
+4:24
+It connects to eight different networks
+4:26
+and four different hosts.
+4:27
+You can see all the different ports--
+4:29
+553 ports on this virtual switch--
+4:33
+and all of the things that is supported
+4:35
+by this virtual switch.
+4:36
+This supports NetFlow, it supports Link Aggregation
+4:39
+Control Protocol, or LACP, for providing multiple links
+4:43
+for load balancing.
+4:44
+We also have port mirroring, health, check
+4:46
+and other features available on the switch.
+4:50
+Inside of your virtual machines will be a virtual network
+4:53
+interface card, or a vNIC.
+4:55
+All of these virtual servers need a vNIC
+4:58
+so that they can then communicate out
+4:59
+to the rest of the network.
+5:01
+This is usually also configured through the hypervisor,
+5:04
+and you can add additional functionality or features
+5:07
+depending on what you need on that server.
+5:10
+You may need multiple network interface
+5:12
+cards to provide load balancing, or perhaps you
+5:15
+want to add some type of VLAN capabilities
+5:17
+or additional monitoring.
+5:19
+All of that can be done through the hypervisor.
+5:22
+Here's a graphical view of these network connections
+5:25
+in the hypervisor.
+5:26
+On the right side is the uplink to the physical network.
+5:29
+We have to have some way to take this data
+5:31
+from the virtual world and get it into our physical world,
+5:35
+and these are the interfaces that provide that.
+5:37
+And then in these different regions,
+5:39
+in different virtual machines, you
+5:41
+can see individual ports are configured.
+5:43
+All of these individual interfaces or vNICs
+5:46
+are configured and connected to the same central network.
+5:50
+We can make some of these networks private,
+5:52
+we can associate them with a different VLAN,
+5:55
+and build out as complex or detailed a network
+5:58
+as we might need for our applications.
+
+
+Traditional Server Farms vs. Network Function Virtualization (NFV)
+This video explains how Network Function Virtualization (NFV) is changing the way data is managed and networks are deployed.
+
+Traditional Server Farms
+
+Used physical servers in server farms for various tasks.
+Each server had its own operating system and required individual management.
+Network infrastructure consisted of physical switches, routers, and firewalls.
+Limitations of Traditional Server Farms
+
+Scalability: Adding new servers required physical installation and configuration.
+Resource Utilization: Many servers might be underutilized.
+Management Complexity: Managing individual physical devices was complex.
+Network Function Virtualization (NFV)
+
+Replaces physical network devices with virtual network functions (VNFs) running on a hypervisor.
+The hypervisor manages virtual machines (VMs) and provides resources like CPU, memory, and network access.
+Benefits of NFV:
+Scalability: Easily add or remove VNFs with a few clicks.
+Resource Efficiency: Utilize resources more efficiently by consolidating servers.
+Simplified Management: Manage the entire network from a single console (single pane of glass).
+Key Components of NFV
+
+Hypervisor: Manages VMs and allocates resources.
+Virtual Switch (vSwitch): Acts like a physical switch in the virtual world, connecting VMs.
+Virtual Network Interface Card (vNIC): Network adapter for VMs to communicate with the network.
+Summary
+
+NFV offers a more scalable, efficient, and manageable way to deploy network functions. It simplifies network management by virtualizing network devices and centralizing control.
+
