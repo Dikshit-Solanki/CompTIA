@@ -1,0 +1,722 @@
+The passage is about different network topologies and how data is transferred between devices on a network.
+
+Here are the key points:
+
+Peer-to-peer (P2P) networks: Every device acts as both a server and a client, sharing resources directly with each other. This is easy to deploy but difficult to administer and secure.
+
+Client-server networks: Devices (clients) communicate with a central server that stores data and applications. This offers good performance and manageability but requires additional hardware and software.
+
+Local Area Network (LAN): A network within a limited geographical area, like a building or campus, typically using high-speed connections like ethernet.
+
+Metropolitan Area Network (MAN): A network spanning a larger area, like a city, connecting buildings of an organization.
+
+Wide Area Network (WAN): A network covering a large geographical distance, like a country or even the entire world. Connections are typically slower than LANs.
+
+Wireless Local Area Network (WLAN): A wireless LAN using Wi-Fi (802.11) to connect devices within a limited area.
+
+Personal Area Network (PAN): A network for personal devices within a short range, like Bluetooth connections for headsets or speakers.
+
+Campus Area Network (CAN): A network connecting multiple buildings in a campus using high-speed wired connections.
+
+Network Attached Storage (NAS): A device that stores data centrally and allows file-level access from multiple devices on the network.
+
+Storage Area Network (SAN): A high-performance network for storage devices, enabling block-level data access for faster transfers.
+
+Multiprotocol Label Switching (MPLS): A technology for routing data packets across WANs using labels for efficient forwarding.
+
+Dynamic Multipoint VPN (DMVPN): A technology that creates dynamic connections between remote sites in a network for efficient data transfer.
+
+Software-Defined WAN (SDWAN): A network where the configuration is software-defined, allowing for flexible routing based on traffic type and cloud applications.
+
+
+
+
+With a peer-to-peer network, there's
+0:03
+not a server or a client.
+0:05
+Instead, every device is a server and a client,
+0:09
+so everyone is communicating to each other
+0:11
+to be able to gain access to the data that they might need.
+0:15
+This is a very easy way to deploy an application,
+0:18
+because you simply install it on everyone's computer,
+0:21
+and they all talk amongst each other
+0:23
+to be able to use that particular app.
+0:25
+You don't need an additional server.
+0:27
+You don't have to purchase and maintain that server operating
+0:30
+system.
+0:31
+Everything runs on everyone's existing systems,
+0:34
+so the cost is relatively low to implement.
+0:37
+One of the significant disadvantages of peer-to-peer,
+0:40
+however, is that it's very difficult to administer
+0:43
+this type of system.
+0:44
+The entire application is distributed.
+0:47
+All of the authentication process is also distributed,
+0:50
+so it's very difficult to be sure
+0:52
+that a peer-to-peer application will remain secure.
+0:56
+With client-server communication,
+0:58
+the responsibilities are split.
+1:00
+You have individual clients, and then
+1:02
+you have a centralized server, and when
+1:04
+clients need to access data, everyone
+1:06
+will access the same server.
+1:09
+As you can see by this diagram, clients
+1:11
+are not communicating to each other
+1:12
+directly, or even through the server.
+1:15
+All the clients talk to the server,
+1:17
+and the server talks to the clients.
+1:19
+This gives you very good performance,
+1:20
+because you have a direct connection to the server
+1:23
+that you can manage and maintain.
+1:24
+This also allows for easy administration,
+1:27
+because you can configure the application
+1:29
+and the authentication for that app at the central point
+1:33
+where the server is.
+1:34
+As you can tell with this diagram,
+1:36
+though, there's additional hardware and software
+1:38
+that you'll need.
+1:38
+You'll need a server, and you'll need somewhere
+1:40
+to store it and maintain it, and that has an additional cost
+1:43
+associated with it.
+1:44
+This also adds a bit of complexity,
+1:46
+because you have a centralized server that
+1:48
+needs to be administered.
+1:50
+That's something you don't have on a peer-to-peer system.
+1:53
+If you're working inside of an office,
+1:55
+or you're working from home, that network
+1:57
+that's in your office or in your home is a local area network.
+2:01
+It's local because the network that you're using
+2:04
+is usually within the same building
+2:05
+that you happen to be in.
+2:07
+This could also be the network that's
+2:08
+within a single building, for example,
+2:10
+between different floors.
+2:12
+That is a local area network, because all of those resources
+2:15
+are local to us in that building.
+2:18
+Generally speaking, a local area network
+2:20
+will have a relatively fast throughput.
+2:22
+We're using 802.11 wireless networks and ethernet
+2:25
+connectivity to be able to have high-speed communication.
+2:29
+If you find that you're using slower connections,
+2:32
+or it's a link that doesn't run at these higher speeds,
+2:35
+then you're probably not communicating
+2:36
+over a local area network.
+2:39
+Many companies will have buildings or parts
+2:41
+of their organization that are located
+2:43
+in different parts of a city to be able to communicate
+2:46
+to those buildings, we need to use a metropolitan area
+2:49
+network, or a MAN.
+2:50
+This is obviously a much larger network than something
+2:53
+that's in our single building, and it's usually expanding out
+2:57
+to a large, citywide area.
+2:59
+Usually, you're working with a third-party provider in that
+3:02
+city to provide this service.
+3:04
+Occasionally, you'll see this referred
+3:05
+to as metro ethernet for this metropolitan area network.
+3:10
+It's very common to see governments
+3:11
+use metropolitan area networks, because they're obviously
+3:14
+very geographically dispersed throughout the metropolitan
+3:17
+area, and they have right of way, so it's very easy for them
+3:21
+to put fiber in the ground and connect up
+3:23
+all of their remote locations.
+3:25
+If you're going outside the scope of a metropolitan area
+3:29
+network and communicating over a much larger distance,
+3:32
+then you're probably using a wide area network, or a WAN.
+3:36
+One characteristic that tends to be very common when you start
+3:39
+expanding the distance of these networks
+3:42
+is that the networks tend to become a little slower
+3:44
+in their throughput.
+3:45
+So wide area networks generally don't
+3:48
+run at the same speeds as a local area network
+3:51
+that you might have in your building.
+3:53
+If you're connecting over an MPLS
+3:54
+network or point-to-point serial WAN connection,
+3:57
+then you're almost certainly communicating over a wide area
+4:01
+network.
+4:01
+These can be links that are connecting us
+4:03
+with fiber that's in the ground, but we could also
+4:05
+use satellite communication, which is certainly a wide area
+4:09
+network, and those nonterrestrial links
+4:11
+would allow us to connect locations
+4:13
+that may be very far away.
+4:15
+A specialized type of local area network
+4:18
+is one that is wireless.
+4:20
+This is the WLAN, or Wireless Local Area Network,
+4:24
+and usually these are 802.11 networks.
+4:26
+If you're within a building and you're
+4:28
+walking from one side of the building to another
+4:30
+and you're connected to your local network,
+4:32
+then you're probably connecting over one
+4:34
+of these wireless LANs.
+4:35
+This is one that does have a limited geographical area.
+4:39
+When you leave your building, you're
+4:40
+probably not going to be able to communicate
+4:42
+to this WLAN because of the short distances associated
+4:45
+with 802.11.
+4:47
+But if you're in a larger area, there
+4:49
+are ways to extend this distance using multiple access points.
+4:53
+So you could be in an entire downtown area
+4:55
+or in multiple buildings and still maintain connectivity
+4:59
+to that wireless LAN.
+5:01
+If you have a Bluetooth headset, you're
+5:03
+connecting to your computer with a Bluetooth keyboard,
+5:06
+or using some other type of personal connection between you
+5:10
+and the devices you use, then you're using a personal area
+5:13
+network, or a PAN.
+5:15
+If you're in your car and you connect
+5:16
+to a speaker and a microphone or you play audio
+5:19
+through your phone to the audio system of the car,
+5:22
+then you're using a Bluetooth-based personal area
+5:25
+network.
+5:26
+We also consider that Bluetooth connection
+5:28
+to a wireless headset to be a personal area network.
+5:32
+And if you're using some newer workout equipment at your gym,
+5:35
+you'll find that is connecting to your mobile phone
+5:37
+using this personal area network.
+5:40
+There's a middle ground between a local area network
+5:43
+in a building and a metropolitan area network
+5:46
+that might connect us to a site that is many miles away.
+5:49
+We could have multiple buildings within our local area
+5:53
+on a single campus.
+5:54
+You certainly would see this with schools and universities,
+5:57
+but this could also be the same for large organizations
+6:01
+that may span multiple buildings in a particular area.
+6:04
+This is a campus area network, or a CAN,
+6:07
+and it's very common to have these buildings connected
+6:09
+with conduit, making it very easy
+6:11
+to pull fiber from one building to another
+6:14
+and connect all of your users to each other.
+6:16
+We would usually run some type of local area network
+6:19
+technology so we would have high-speed ethernet between all
+6:22
+of these buildings, so that we're
+6:24
+able to communicate as if we were sitting
+6:26
+all in the same building.
+6:28
+This is usually a connection that's made on private LAN.
+6:31
+You've put your own conduit into the ground,
+6:33
+you've run your own fiber connection,
+6:34
+so usually there's not a third party
+6:37
+that needs to be involved.
+6:38
+There wouldn't be a monthly payment to an internet service
+6:41
+provider because you're the one that has built the conduit,
+6:43
+you've run your own fiber, and you don't
+6:45
+have to involve a third party.
+6:48
+One of the reasons for adding all of these connections,
+6:51
+especially on local and wide area networks
+6:53
+is so that users can have access to their data
+6:56
+usually this data is located in a central location
+6:59
+and we're usually storing it on something
+7:01
+like a network attached storage device, or a NAS.
+7:04
+This NAS contains multiple drives
+7:07
+and is able to store large amounts of data
+7:09
+in this one single area.
+7:11
+A network attached storage is usually
+7:13
+a device where you can access these files at the file level.
+7:17
+File-level access means that any changes you make to this file
+7:21
+have to be done to the entire file that's
+7:23
+located on this device.
+7:25
+This means if you have a file that's a gigabyte in size,
+7:28
+and you just need to change one byte within that file,
+7:32
+you have to overwrite the entire gigabyte,
+7:35
+because you're using a network attached storage.
+7:37
+If you just wanted to change that single block of data that
+7:41
+contained that information, then you
+7:43
+would want to use a storage area network, or a SAN.
+7:47
+To your computer, a SAN looks and feels
+7:49
+a lot like the local drive that's on your system.
+7:52
+So being able to make block-level changes
+7:54
+to this information can be done very quickly and very
+7:57
+efficiently when compared to something like a network
+8:00
+attached storage device.
+8:02
+Whether you're using a NAS or a SAN,
+8:04
+you're probably going to be sending and receiving
+8:07
+a lot of data to these devices.
+8:09
+For that reason, you would probably
+8:10
+have a dedicated network for the storage area networks
+8:14
+or network attached storage devices,
+8:16
+and you would probably connect these with the fastest network
+8:19
+possible.
+8:20
+Through the years, we've had a number of different wide area
+8:23
+network technologies.
+8:24
+We had frame relay and ATM, and as our needs changed
+8:28
+and the way we use these networks changed,
+8:31
+we needed a smarter way to communicate.
+8:33
+So we created MPLS, Multiprotocol Label Switching.
+8:37
+This is communication through the WAN,
+8:39
+but it uses labels to be able to determine
+8:42
+how we route and forward that traffic through the WAN.
+8:45
+One advantage of MPLS is that we can
+8:48
+use almost any type of connection for MPLS
+8:52
+and we can put almost any type of data inside of an MPLS
+8:56
+network.
+8:56
+This means that we could send IP traffic, ethernet frames,
+9:00
+or any other type of data we'd like through the MPLS network.
+9:03
+This makes MPLS relatively easy to get up and running
+9:06
+and have all of our data transferred
+9:08
+between two locations.
+9:10
+With IP routing, we're always concerned
+9:13
+about the IP subnetting and the next hop
+9:15
+that we're going to use.
+9:16
+But with MPLS, we make forwarding decisions
+9:19
+based on the label switching.
+9:21
+This label switching is something
+9:23
+that's added when we put information
+9:25
+into the MPLS network.
+9:27
+If we have data and we have information
+9:29
+on one side of the network, and we
+9:31
+would like that data to get to the other side of the MPLS
+9:34
+network, we send that data into the first provider edge
+9:37
+router that's closest to us.
+9:39
+That edge router is going to insert a label into this data.
+9:43
+We call that pushing the label onto the data.
+9:46
+It's going to then know how to forward
+9:48
+that traffic through the internals of the provider
+9:51
+switch network, and when this data reaches
+9:53
+the other side that label is popped off
+9:56
+of this communication.
+9:57
+And the remaining data is sent to the customer edge router.
+10:01
+With MPLS, we have to create an initial configuration that
+10:05
+defines where all of the different sites may be located
+10:08
+and what labels may be used to switch data to those locations.
+10:12
+Other types of wide area networks
+10:14
+could create network connections dynamically,
+10:16
+so that you're only connecting to those sites
+10:18
+when you need to.
+10:20
+This commonly uses MGRE, which is Multipoint Generic Router
+10:23
+Encapsulation, and you'll usually see networks
+10:26
+like a dynamic multipoint VPN, or DMVPN,
+10:30
+used to send data across one of these MGRE networks.
+10:35
+What's nice about these dynamic connections
+10:37
+is they're only created when they're needed,
+10:39
+and they're torn down when you don't have any information
+10:42
+that you need to send.
+10:43
+If you have a break in any of the connections,
+10:45
+the VPN can even rebuild itself to be
+10:48
+able to communicate between all of these different sites.
+10:51
+All of this is considered to be a dynamic mesh because you're
+10:54
+able to send data to whatever site
+10:56
+you would like based on where that data needs to go.
+10:59
+Normally, you would have a main office,
+11:01
+and you would have remote sites that
+11:03
+would connect to the main office over single links.
+11:06
+And if you needed to communicate between remote sites,
+11:09
+that remote site would have to first communicate
+11:11
+to the main office, and then the main office
+11:13
+would have to communicate down to that destination site.
+11:15
+With a dynamic multipoint VPN, you
+11:18
+can have these two sites recognize
+11:20
+that they want to communicate to each other,
+11:22
+they create their own link between the communication,
+11:25
+and when that link is no longer needed, it's disconnected.
+11:28
+If this site needs now to connect
+11:30
+to a different remote site, it can then
+11:32
+create a separate dynamic link to that site,
+11:35
+and of course you can have that site create
+11:37
+a dynamic link as needed.
+11:39
+All of these dynamic multipoint links
+11:42
+mean that you have a more efficient network.
+11:44
+You're only using connectivity when you have to have it,
+11:47
+and if you do need to send information between two
+11:49
+remote sites, you can send that data directly rather than
+11:53
+hopping through a main office.
+11:56
+A newer type of wide area network
+11:57
+is an SD wide area network, or SDWAN.
+12:01
+The SD stands for Software Defined, which
+12:04
+means that our wide area network can be defined however
+12:08
+we would like to lay it out.
+12:09
+This is especially useful if you have cloud-based applications
+12:13
+and you need the network to understand where data needs
+12:16
+to go at any particular time.
+12:19
+We used to have a data center that
+12:20
+was located in one central building,
+12:22
+and we simply connected all of our remote sites
+12:25
+to that one data center.
+12:26
+Now that we have cloud based applications,
+12:29
+we need to communicate to the cloud.
+12:31
+And instead of having to hop through this data center
+12:34
+to be able to access those cloud-based resources,
+12:36
+we can have the wide area network recognize
+12:39
+that we need to communicate directly to those resources
+12:42
+rather than sending all of that data
+12:44
+through one central data center.
+12:47
+Here's our wide area networks before we
+12:49
+had cloud-based services and before we had software
+12:52
+defined wide area networks.
+12:54
+We had our data center.
+12:55
+Inside of our data center were all
+12:57
+of our services, our email servers, our database servers,
+13:00
+and all of our other data.
+13:02
+All of these remote sites would need
+13:04
+to connect to the data center to be able to gain access
+13:06
+to those resources.
+13:08
+With cloud-based services, we've taken our email services,
+13:11
+we've moved them to the cloud.
+13:12
+All of our servers are now at a cloud provider,
+13:16
+and we might have our databases inside yet another cloud
+13:19
+provider.
+13:20
+Instead of having all these remote sites then
+13:22
+communicate to this central data center, and then hop
+13:25
+to all of these cloud-based services,
+13:27
+we could have our wide area network automatically
+13:30
+know where to send the data based on the type of data
+13:33
+that it is.
+13:34
+So if a remote site needs to access
+13:36
+data that's in a cloud database, they
+13:38
+can access that information directly from the cloud.
+13:41
+If another site needs to grab an email message that's
+13:44
+located in a cloud-based email service,
+13:47
+they can communicate directly to that email service instead
+13:50
+of hopping through a central data center.
+13:52
+The determination of how this data is routed
+13:55
+is in the wide area network itself.
+13:57
+That software defined aspect of the SDWAN
+14:01
+determines how data is rooted and sent
+14:03
+based on the type of services that are required.
+14:06
+This makes for a much more efficient network.
+14:09
+This allows us to have instant access
+14:11
+to our cloud-based resources instead
+14:13
+of having to hop through a central point
+14:15
+or build out a separate network to gain access
+14:18
+to those resources.
+
+
