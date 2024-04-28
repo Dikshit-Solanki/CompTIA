@@ -1,0 +1,380 @@
+If you work on a network for any amount of time,
+0:04
+you will eventually run into a scenario
+0:06
+where you need a fiber connection
+0:08
+and all you have is a copper connection, or vice versa.
+0:12
+In order to create the type of connection you need,
+0:15
+you may need to use a media converter.
+0:18
+This is a device that operates at OSI layer 1
+0:20
+and converts the signals of one media
+0:23
+type to the signals of a different media type.
+0:26
+For example, you can extend a copper wire
+0:29
+over a very long distance by converting that copper
+0:32
+connection to fiber, extending it over that long distance,
+0:37
+and then converting it back to copper on the other end.
+0:40
+Or it may be that you only have fiber connections in a wall
+0:44
+or a connection between two sites,
+0:46
+but your switches only have copper ports.
+0:48
+So you can convert temporarily to fiber
+0:51
+while you extend that connection between those two switches.
+0:55
+Although it doesn't show it in this picture,
+0:57
+there's probably a power connector
+0:59
+that's on the back of this media converter, which
+1:01
+is very common, especially if you're moving between fiber
+1:04
+and copper connections.
+Media Converters
+1:06
+Here's an example of converting from a copper connection
+1:10
+on a switch to fiber.
+1:11
+This switch only has five interfaces on it,
+1:14
+and all five of those interfaces are copper.
+1:17
+In order to connect this switch to a fiber connection,
+1:20
+we will first connect to a media converter,
+1:23
+which makes the conversion to a fiber connection.
+1:26
+And one in this particular case has a transceiver
+1:29
+that we can use to specify what type of fiber we'll connect to.
+1:34
+Here's an example of using these media converters in a much
+1:37
+larger implementation.
+1:39
+This one appears to be in a data center,
+1:41
+where there are multiple media converters all stacked together
+1:44
+within the same chassis.
+1:46
+You can see that there's fiber to copper being used
+1:49
+on almost all of these connectors,
+1:51
+and this modular type of interface
+1:54
+allows you to remove a media converter
+1:56
+and reinsert a converter that has the type of conversion you
+2:00
+need.
+2:01
+In this particular example, you can see that most of these
+2:03
+happen to be using ethernet connections on the top,
+2:07
+but then there's varied type of connectors on the bottom.
+2:10
+They might be converting to a fiber connection
+2:12
+or converting to other copper connections.
+Transceivers
+2:16
+On one of those images of a media converter,
+2:19
+we saw that they were using a transceiver
+2:22
+to specify what type of fiber connection they wanted to use.
+2:25
+The term transceiver means that there
+2:27
+is a transmitter and receiver usually contained
+2:30
+within the same physical component.
+2:32
+This is a modular interface that allows
+2:34
+you to plug in exactly the type of connection
+2:36
+you'd like to use, which means that,
+2:38
+no matter what you're using, you should
+2:40
+be able to plug in the proper transceiver
+2:42
+and make that connection.
+2:44
+There are many different kinds of transceivers
+2:46
+that correlate to the type of fiber or copper connections
+2:49
+that you'll be plugging into, and it's
+2:51
+very common to keep a handful of these
+2:53
+around in case you ever need to plug in or convert
+2:56
+between a different network type.
+2:58
+This is an example of where those transceivers can really
+3:01
+be useful, because most of the interfaces on the switch
+3:04
+are copper interfaces.
+3:05
+But the uplink ports on the switch
+3:08
+allow you to either use the built-in copper interface
+3:11
+or to plug in your own transceiver
+3:13
+and be able to connect to that network type.
+Fibers
+3:17
+With most of these transceivers, you'll
+3:18
+commonly see two separate fibers being used for the connection.
+3:22
+One of these fibers would be the transmit fiber,
+3:25
+and the other fiber's used exclusively
+3:27
+to receive any information.
+3:29
+If you're connecting to transceivers then,
+3:31
+you would have one fiber that is using the receive side
+3:34
+of one transceiver and plugging into the transmit side
+3:38
+of the other.
+3:39
+Conversely, on that side, the receive
+3:41
+side of that transceiver would plug into the transmit side
+3:44
+on the reverse transceiver.
+Bidirectional
+3:47
+There are times, though, where you
+3:48
+might run into a limited number of fibers on a connection,
+3:52
+and you may not have two fibers to be
+3:53
+able to send and receive traffic across separate individual
+3:57
+optic fibers.
+3:58
+In that case, you may want to use
+4:00
+a transceiver that is a BiDi transceiver,
+4:03
+or a bidirectional transceiver.
+4:05
+This allows you to both send and receive traffic
+4:09
+over a single strand of fiber.
+4:11
+So you can see that one wavelength of communication
+4:14
+is being sent on the transmit side,
+4:16
+and on that same piece of fiber you have a receive side,
+4:20
+all being used on that same fiber connection.
+4:23
+If you do happen to have two fibers then,
+4:26
+you can run two individual connections, which effectively
+4:30
+doubles the amount of connections
+4:31
+that you would have had with a non-bidirectional transceiver.
+SFP
+4:36
+There are many different types and form factors
+4:38
+for transceivers.
+4:40
+One of the most common is an SFP, or small form factor
+4:44
+pluggable.
+4:44
+This connector that we used in that switch
+4:47
+is an SFP connection.
+4:49
+If you're plugging in 1-gigabit connections,
+4:51
+then you're probably going to use an SFP.
+4:54
+The SFP we have here is a fiber SFP,
+4:57
+but they also make copper SFPs for connecting copper
+5:00
+connections over gigabit links.
+5:03
+There's an enhanced version of the SFP called an SFP plus.
+5:08
+This is a small form factor pluggable
+5:10
+that is enhanced to be able to increase the throughput
+5:14
+of that transceiver.
+5:15
+It's exactly the same size of an SFP,
+5:18
+but it supports rates up to 16 gigabits per second,
+5:21
+making it a perfect type of connector to use
+5:24
+for your 10-gig Ethernet links.
+5:27
+As with most network infrastructure devices,
+5:30
+you can get more value from that device
+5:32
+if you can fit more interfaces into a smaller area.
+5:35
+In order to do that, we might use
+5:37
+a transceiver that's a QSFP, or a quad small form factor
+5:42
+pluggable.
+5:43
+These are slightly larger than a traditional SFP,
+5:46
+but they fit four times the amount of information.
+5:50
+This is a four-channel, SFP, which
+5:52
+means you can have four 1-gigabit connections,
+5:54
+or a total of 4 gigabits of throughput
+5:57
+through a single QSFP.
+5:59
+Just as an SFP has an SFP plus, the QSFP
+6:04
+has a QSFP plus that has also four channels.
+6:08
+But instead of being four channels of an SFP,
+6:11
+it has four channels of an SFP plus.
+6:14
+That means that you can easily fit four 10-gig connections--
+6:18
+meaning a 40-gigabit link-- using a single queue QSFP plus.
+6:24
+This means you're not only saving space
+6:26
+on the infrastructure equipment--
+6:27
+you're also saving the amount of fiber
+6:30
+that you're using between those connections.
+6:32
+And to extend that efficiency, you
+6:34
+could use bidirectional QSFPs and bidirectional QSFP pluses,
+6:40
+meaning that a single fiber run can effectively
+6:43
+double the amount of throughput through this single QSFP
+6:46
+connection.
+SFP vs QSFP
+6:48
+Here's the difference in size between the SFP or SFP
+6:52
+plus and the little bit larger QSFP and QSFP plus.
+6:57
+You can see there's not much of a difference between them,
+6:59
+but there is obviously a difference
+7:01
+in the size of the form factor.
+7:03
+You'll need to check your device to see exactly
+7:06
+what type of transceiver it's looking for, because you can't
+7:09
+easily use an SFP plus, if that device is expecting an SFP.
+7:14
+Make sure you check the documentation of the device
+7:17
+that you're connecting to to make sure
+7:19
+that you're plugging in the right type of transceiver
+7:21
+for that device.
+
+Media converters play a crucial role in networking scenarios where you encounter a need to connect different types of media, such as copper and fiber. By operating at OSI layer 1, media converters facilitate the conversion of signals between different media types, enabling seamless integration of diverse network components.
+
+For instance, if you require extending a copper connection over a long distance, a media converter can convert the copper signal to fiber, allowing it to traverse the distance without signal degradation. Subsequently, another media converter can convert it back to copper at the other end, ensuring compatibility with the receiving device.
+
+Similarly, in situations where only fiber connections are available but your switches have copper ports, media converters can temporarily convert the fiber connection to copper, facilitating connectivity between devices until a permanent solution is implemented.
+
+Media converters often feature power connectors, especially when converting between fiber and copper connections, to ensure reliable operation. These converters come in various form factors, including standalone units and modular chassis configurations, to suit different networking environments and requirements.
+
+Transceivers, commonly used with media converters, enable the specification of the desired fiber connection type. They contain both transmitters and receivers within a single physical component, providing flexibility in connecting to different network types. Transceivers are available in various types and form factors, such as SFP (Small Form Factor Pluggable) and QSFP (Quad Small Form Factor Pluggable), each catering to specific throughput and connectivity needs.
+
+When using transceivers, it's essential to ensure compatibility with the devices you're connecting to, as different devices may require specific transceiver types. Additionally, bidirectional transceivers and connectors enable transmission and reception of traffic over a single fiber strand, maximizing efficiency and utilization of available resources.
+
+Understanding the role of media converters and transceivers is crucial for effectively managing network connectivity and addressing diverse networking requirements, ensuring seamless communication across different media types and devices.
+
+
+
+
+
+
+
+
+Media Converters and Transceivers for Network Connections
+This video explains media converters and transceivers used to connect different network media types.
+
+Media Converters
+
+Operate at OSI layer 1 (physical layer).
+Convert signals between different media types (e.g., copper to fiber).
+Applications:
+Extending a copper connection over a long distance by converting it to fiber.
+Connecting switches with only copper ports to fiber optic cables.
+Often require a separate power connection.
+Transceivers
+
+Modular devices containing both transmitter and receiver.
+Allow using the appropriate connection type for a media converter.
+Types of transceivers:
+SFP (small form-factor pluggable): Most common, used for 1 Gigabit Ethernet connections (copper or fiber).
+SFP+ (enhanced SFP): Supports up to 16 Gbps, ideal for 10 Gigabit Ethernet links.
+QSFP (quad SFP): Larger than SFP, supports four channels for a total of 4 Gbps (QSFP) or 40 Gbps (QSFP+) throughput.
+BiDi transceiver (bidirectional): Uses a single fiber for both sending and receiving data.
+Important Points
+
+Choose the right transceiver type based on the media converter and desired connection speed.
+SFP+ and QSFP+ offer higher data rates compared to SFP and QSFP.
+BiDi transceivers can be used when limited fiber strands are available.
+Verify the compatible transceiver type for your device before connecting.
+
+
+
+
+
