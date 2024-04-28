@@ -1,0 +1,488 @@
+Copper cabling is the foundation of our Ethernet networks.
+0:06
+If you have a network at home, you're
+0:07
+usually connecting with copper Ethernet cable.
+0:10
+Whenever we're building out new networks,
+0:12
+we need to make sure that we're using the correct type of cable
+0:15
+for the type of network that we're installing.
+0:18
+And of course, anything that we're
+0:20
+plugging into our network, whether it is a copper wired
+0:23
+network or a wireless access point
+0:26
+will ultimately come back to that wired connection.
+0:29
+If you were to look inside any of our twisted pair Ethernet
+Twisted pair copper cabling
+0:33
+cables, you would see four pairs of wires.
+0:36
+And you would see that the pairs are twisted around each other.
+0:40
+These wires are sending equal and opposite signals
+0:43
+down both sides of the wires.
+0:45
+You'll sometimes see this referred to as transmit+
+0:48
+and transmit- or receive+ and receive-.
+0:52
+The reason for sending these opposite signals down
+0:55
+the same wires is that we're taking advantage of the twist,
+1:00
+because the wire is twisted, it's
+1:01
+always moving away from any noise or interference
+1:05
+that may be occurring anywhere close to the cable.
+1:07
+This allows us to compare those signals on the other end,
+1:11
+reconstruct what may have been damaged
+1:13
+or interfered with during the transmission,
+1:15
+and be able to properly receive the total signal.
+1:18
+You'll also notice that the different pairs have
+1:21
+different twist rates, which is another way
+1:23
+that we could use to be able to reconstruct
+1:25
+that signal on the other side.
+1:28
+There are different ways to construct twisted pair cabling
+Copper cable categories
+1:31
+using different types of cables and different ways
+1:33
+to manufacture the cable itself.
+1:35
+These different characteristics of cables
+1:38
+are called categories of cables.
+1:40
+And we use these categories to determine what type of cable
+1:43
+we would use for a different type of network.
+1:46
+For example, if you're using 1000BASE-T,
+1:49
+the IEEE 802.3 standard tells us that we
+1:52
+could use category 5 cables to be
+1:55
+able to send this gigabit Ethernet
+1:57
+connection to a maximum distance of 100 meters.
+2:00
+This category 5 cable is a type of category we no longer use.
+2:04
+We've updated that category to category 5e.
+2:07
+The E is for enhanced.
+2:09
+So when you see 1000BASE-T being used,
+2:12
+we're using a minimum of category 5e
+2:14
+these days to be able to go 100 meters.
+2:17
+But if you happen to have some older category
+2:19
+5 that's still in the wall and you
+2:21
+would like to send 1000BASE-T signal over it,
+2:24
+it'll work great up to 100 meters in length.
+2:27
+If you're running 10 gig Ethernet, that's 10GBASE-T,
+2:30
+you need a minimum of category 6.
+2:32
+If you're using unshielded twisted pair cable,
+2:35
+that supports up to 55 meters in length.
+2:38
+And shielded cable will support 100 meters in length.
+2:41
+If you're using category 6A-- the A means
+2:44
+augmented-- you can still run 10GBASE-T
+2:47
+to a distance of 100 meters.
+2:50
+And if you have category 7--
+2:51
+this is a shielded type of cable--
+2:53
+it will use 10GBASE-T for that 10 gigabit Ethernet
+2:57
+up to a 100 meter distance as well.
+3:00
+And if your requirements are for 40 gigabit Ethernet using
+3:03
+the 40GBASE-T standard, then you want
+3:05
+to use category 8, which is a shielded cable.
+3:08
+And its maximum supported distance is 30 meters.
+3:12
+Not all cable connections are twisted pairs.
+3:15
+Sometimes you may be using coaxial cable.
+3:17
+Coaxial means that you have two or more forms using
+3:20
+the same access.
+3:21
+And in this case, it is a single wire conductor
+3:24
+that's used in this particular coax cable.
+3:27
+This is commonly the coax cable we would use for cable modem
+3:30
+connectivity, for example.
+3:32
+If you look at the coax that's used inside of your home,
+3:34
+you can look on the outside of the cable.
+3:36
+And it's probably labeled to be an RG-6
+3:39
+or a similar type of coax.
+3:41
+This is what we normally use for television, our digital cable
+3:44
+connectivity, and for our digital internet connections.
+3:48
+This is the type of cable you would commonly
+3:50
+use for television and for your cable modem connections.
+3:55
+Twinax is similar to coax, except instead
+Twinaxial cable
+3:57
+of having one single conductor inside the cable,
+4:00
+there are two separate conductors,
+4:02
+the twins in the twinax.
+4:04
+This is the type of cable you would commonly
+4:06
+see associated with 10 gig Ethernet over copper,
+4:09
+specifically using SFP transceivers.
+4:12
+This allows for full duplex connection,
+4:13
+because you do have two connections-- one
+4:15
+for send and one for receive.
+4:17
+But it does have a limited distance
+4:19
+when used with 10 gig Ethernet.
+4:20
+It has a distance of about 5 meters in length.
+4:23
+But because it is coax, it is a copper cable
+4:26
+and has a relatively low cost when you compare it
+4:29
+to fiber connectivity, especially fiber connectivity
+4:32
+on the devices.
+4:34
+This is also a very efficient copper cable connection
+4:37
+with a lower latency than twisted pair cabling.
+4:40
+One of the things you'll notice if you go from place to place
+4:44
+or company to company is that all
+4:46
+of their structured cabling, all of their Ethernet wires,
+4:49
+and everything that's connected inside of their network
+4:52
+is identical from location to location.
+4:55
+This is by design.
+4:56
+There are a set of standards that
+4:58
+dictate exactly how you should install and use
+5:01
+these twisted pair and copper cable connections.
+5:04
+These are the international ISO/IEC
+Structured cabling standards
+5:07
+11801 cabling standards.
+5:10
+Inside of North America, you would commonly see
+5:12
+the Telecommunications Industry Association standards,
+5:15
+or the TIA standards, specifically the ANSI/TIA-568
+5:21
+standard, which is the commercial building
+5:23
+telecommunications cabling standard.
+5:25
+If you want more information on the TIA,
+5:27
+you can find it on their website at tiaonline.org.
+5:30
+The TIA-568 standard is extensive.
+5:34
+But for the purposes of what we'll talk about in this video,
+5:38
+we're going to talk about the standards associated
+5:40
+with pin and pair assignments of eight-conductor 100-ohm
+5:45
+balanced twisted pair cabling.
+5:47
+This is the cable we often use when
+5:48
+we're using Ethernet networks.
+5:51
+Specifically, we're going to talk
+5:52
+about two types of standards, the T568A and the T568B.
+5:59
+These 568A and 568B standards dictate
+T568A and T568B termination
+6:02
+what type of colors of cables we will use when punching down
+6:06
+these Ethernet connections.
+6:08
+The T568A standard has a different set
+6:11
+of colors than the T568B standard.
+6:14
+But by using either the A or the B standard,
+6:17
+we can be assured that we're matching an A or B
+6:20
+standard that's used anywhere else almost universally.
+6:23
+The standard itself mentions times
+6:25
+when you may want to use T568A colors and T568B colors.
+6:30
+For example, it mentions that if you're
+6:32
+using horizontal cabling, you would probably use T568A.
+6:36
+But many organizations use 568B.
+6:39
+Normally, an organization would pick
+6:42
+which standard they're going to follow,
+6:43
+and then they use that for their entire infrastructure.
+6:47
+So if you're walking into an organization
+6:49
+and you're wondering which standard to follow,
+6:51
+you simply ask somebody, what do you use here?
+6:54
+Do you use 568A or 568B, or you can
+6:57
+look at their existing cables and see what colors they're
+6:59
+currently using.
+7:01
+There are differences between the T568A and the T568B.
+7:06
+So it's important that you punch down or use the same standard
+7:10
+on both ends of the cable.
+7:12
+You don't want to use T568A on one side and 568B on the other.
+7:17
+That creates a lot of confusion.
+7:19
+And you may find that the cable is not working as expected.
+7:22
+You may find some documentation that
+7:24
+tries to compare the 568A or B standard with Ethernet
+7:28
+crossover cables.
+7:30
+But the 568A or B standard is not
+7:32
+related to Ethernet crossover.
+7:34
+Crossover cables are defined in the IEEE 802.3 standard,
+7:38
+and not in the 568 standard.
+7:41
+We'll go through crossover cables
+7:43
+and how this applies to the colors used in crossover
+7:46
+cables in a later video.
+7:48
+Here are the colors used for these two standards.
+7:51
+We're specifically looking at these colors
+7:53
+based on the eight wires that are inside
+7:56
+of an RJ45 connection.
+7:58
+And you can see they're numbered numbers 1 through 8.
+8:00
+For the T568A and 568B, you can see that some of the wires
+8:05
+are different, but some are the same.
+8:07
+For example, pins 4 and 5 are blue and white and blue
+8:11
+in both standards, and pins 7 and 8
+8:14
+are white and brown, and brown in both standards.
+8:16
+The only two pair that are different between the standards
+8:19
+are pins 1 and 1 and pins 3 and 6.
+8:22
+You can see in 568A pins 1 and 2 are white and green and green,
+8:26
+and pins 3 and 6 are white and orange and orange.
+8:30
+In the T568B standard, those colors are simply reversed.
+8:35
+One way to tell what standard is being
+8:37
+used in a particular cable is to look very closely at the colors
+8:41
+that are along the outside.
+8:42
+And we should be able to map back
+8:44
+what each individual color is and make sure
+8:47
+that it correlates back to one of the A or B standards.
+8:50
+In this example, we can look at the back of this cable,
+8:53
+and we can put that B standard right next to it
+8:56
+and see that each one of those colors does match up.
+8:58
+So this particular connector is wired with the T568B standard.
+9:04
+This would be good to try yourself.
+9:05
+Grab an Ethernet cable you have sitting around.
+9:07
+Have a look at the wires that are on the connector,
+9:10
+and see if yours are wired for T568A or T568B.
+9:15
+English - CC (English)
+
+
+
+Understanding Copper Cabling in Networks
+This video explains copper cabling used in Ethernet networks, including twisted pair cables, coaxial cables, and twinaxial cables.
+
+Twisted Pair Cabling
+
+The foundation of most Ethernet networks.
+
+Each cable contains four pairs of wires twisted together.
+
+Uses differential signaling to reduce noise and interference.
+
+Different categories of twisted pair cables support different speeds and distances.
+
+Category 5e (minimum for 1 Gigabit Ethernet up to 100 meters)
+Category 6 (minimum for 10 Gigabit Ethernet up to 55 meters with unshielded cable, 100 meters with shielded cable)
+Category 6A (supports 10 Gigabit Ethernet up to 100 meters)
+Category 7 (shielded, supports 10 Gigabit Ethernet up to 100 meters)
+Category 8 (shielded, required for 40 Gigabit Ethernet up to 30 meters)
+Coaxial Cable (Coax)
+
+Used for cable modem connections and digital television.
+Single conductor surrounded by a braided shield.
+Commonly labeled RG-6.
+Twinaxial Cable (Twinax)
+
+Similar to coax but with two separate conductors.
+Used for 10 Gigabit Ethernet over copper with SFP transceivers.
+Offers full duplex connection (separate wires for sending and receiving).
+Limited distance (around 5 meters).
+Less expensive than fiber optic connections.
+Lower latency than twisted pair cables.
+Structured Cabling Standards
+
+International ISO/IEC 11801 standards.
+North American TIA/EIA-568 standards (ANSI/TIA-568).
+Define how to install and use twisted pair and copper cable connections.
+T568A and T568B Standards
+
+Specify pin and pair assignments for eight-conductor twisted pair cables.
+Define the color coding for each wire in the RJ45 connector.
+Ensures compatibility between network devices.
+Choosing between T568A and T568B:
+Organizations typically choose one standard and use it consistently throughout their network.
+If unsure, check existing cables or ask the network administrator.
+Important Note
+
+Do not mix T568A and T568B standards on the same cable. Use the same standard on both ends for proper functionality.
+T568A/B standards are not related to Ethernet crossover cables. Crossover cables are defined in a separate IEEE standard.
+
+
+
+
+
+You've got the pinout diagrams for the T568A and T568B wiring standards for RJ45 connectors correct! Here's a breakdown:
+
+Pins: These are the numbered connection points on the RJ45 connector (usually plastic and rectangular with a clip on one side).
+Pairs: The eight wires inside the cable are twisted together in four pairs. Each pair has a specific color combination.
+T568A:
+
+Pin 1: White and Green
+Pin 2: Green
+Pin 3: White and Orange
+Pin 4: Blue
+Pin 5: White and Blue
+Pin 6: Orange
+Pin 7: White and Brown
+Pin 8: Brown
+T568B:
+
+Pin 1: White and Orange
+Pin 2: Orange
+Pin 3: White and Green
+Pin 4: Blue
+Pin 5: White and Blue
+Pin 6: Green
+Pin 7: White and Brown
+Pin 8: Brown
+As you can see, the only difference between T568A and T568B is the order of the orange and green colored wires in both Pin 1 & 2 and Pin 3 & 6.
+
+Key Points:
+
+Either T568A or T568B can be used for standard Ethernet connections.
+It's important to use the same standard (A or B) on both ends of the cable for proper functionality.
+Mixing A and B on the same cable can cause connection issues.
+
