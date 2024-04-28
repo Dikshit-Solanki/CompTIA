@@ -1,0 +1,344 @@
+We often think about connecting to the internet using
+0:04
+a local wireless connection or a wired Ethernet cable.
+0:08
+But you can also connect to the internet
+0:10
+using satellite networking.
+0:12
+This satellite connectivity communicates
+0:14
+into space to a satellite and back down to Earth again
+0:18
+to provide your internet connections.
+0:20
+This is a relatively high cost because of all of the equipment
+0:24
+that's required to get this working,
+0:26
+but you can get relatively good bandwidths.
+0:28
+For example, it's very common to see 50 megabit download speeds
+0:32
+and 3 megabit upload speeds.
+0:34
+We're seeing some changes with this technology.
+0:37
+As Starlink is being rolled out, we're
+0:39
+seeing those speeds beginning to increase.
+0:41
+And you may see that satellite networking becomes
+0:44
+much more common in the future.
+0:46
+If you have a remote site or a site that
+0:48
+has no other option for connectivity to the internet,
+0:51
+satellite networking may be the perfect solution.
+0:54
+Because of the type of communication,
+0:56
+where we're communicating up to a satellite and back down
+0:59
+again, we tend to have a lot of latency with this connection.
+1:02
+Historically, we've seen latency up to 250 milliseconds
+1:07
+as traffic is going up to the satellite and another 250
+1:10
+milliseconds as the traffic is sent back down again.
+1:13
+The newer technologies from Starlink
+1:15
+are promising to lower those latencies down
+1:18
+to 20 to 40 milliseconds.
+1:20
+These are also using high frequencies,
+1:23
+usually 2 gigahertz frequencies, which
+1:25
+means that they are subject to being absorbed
+1:27
+by anything that may be in the way, specifically, rainshowers.
+1:32
+And this is where satellite networking has problems--
+1:35
+is during a rainstorm, you could lose connectivity
+1:38
+to that satellite.
+1:40
+On most of our Ethernet networks,
+1:42
+we're using copper to connect our devices together.
+1:45
+These are relatively inexpensive to both connect inside
+1:48
+of a building and between locations.
+1:50
+But because it's copper, it has a limited amount of bandwidth
+1:53
+that we're able to send over this connection.
+1:56
+When you need higher speeds, you usually
+1:58
+don't use copper, and instead use something
+2:00
+like fiber optics.
+2:01
+But these are very common to see on wide area
+2:04
+networks, especially wide area networks coming into our home.
+2:07
+You often see cable modem or DSL connectivity,
+2:10
+and those are usually provided over a copper coax
+2:13
+connection or a copper twisted pair connection.
+2:16
+There's usually a combination between copper and fiber
+2:20
+that we might use where we would have copper on what we call
+2:23
+the local loop-- or the connection
+2:24
+into our local facility-- and within the provider's network,
+2:28
+we usually would see fiber optics.
+2:31
+One of these copper connection types
+2:33
+is DSL, or Digital Subscriber Line.
+2:36
+Often, this is actually ADSL, for Asymmetric Digital
+2:40
+Subscriber Line because the speeds coming into our homes
+2:44
+are different than the bandwidths and speeds available
+2:47
+going the other direction.
+2:48
+Therefore, it's asymmetric.
+2:50
+DSL uses the telephone lines that we already
+2:53
+have inside of our homes and businesses
+2:55
+to provide this connectivity.
+2:57
+With DSL, there's usually a limitation distance.
+3:01
+For example, there's usually about a 10,000 foot
+3:04
+limitation between your location and the CO, or Central Office.
+3:09
+In many DSL connections, you'll see downstream speeds
+3:12
+at about 200 megabits per second and upstream speeds
+3:15
+at about 20 megabits per second.
+3:17
+But these can differ depending on the type of DSL technology
+3:20
+being used in your area and how far away you might
+3:23
+be from that central office.
+3:26
+One of the other popular copper connections for internet
+3:28
+connectivity is a cable modem or cable broadband.
+3:32
+We call this broadband because the signals
+3:35
+inside of that coax connection are being transmitted
+3:38
+across many different frequencies, or a broad number
+3:42
+of bandwidths.
+3:43
+There are many different traffic types, usually,
+3:45
+inside of these coax.
+3:46
+There may be digital television, internet connectivity,
+3:50
+and voice.
+3:51
+You may notice that the specifications for your cable
+3:53
+modem have a specific standard called DOCSIS.
+3:57
+This is Data Over Cable Service Interface Specification,
+4:01
+and this is the type of connectivity that
+4:03
+is used by this cable modem.
+4:05
+Depending on the DOCSIS version that's
+4:07
+being used in your cable network,
+4:09
+you may see speeds that range anywhere
+4:11
+from 50 megabits per second through 1,000
+4:14
+megabits per second, or 1 gigabit per second.
+4:18
+One of the fastest ways to communicate over our networks
+4:21
+is not to use copper at all, but instead to use light.
+4:24
+This is fiber optic connectivity,
+4:26
+and it provides some of the highest speed networks
+4:29
+that we use.
+4:29
+This higher speed, though, comes at a cost.
+4:32
+Fiber networks are generally more
+4:34
+expensive to implement than copper-based networks
+4:36
+and certainly, more difficult to repair.
+4:39
+You have to have specialized equipment and personnel
+4:41
+to be able to repair breaks on a fiber optic network.
+4:44
+But this does allow you to send a lot of data
+4:47
+over a very long distance, making
+4:49
+it perfect for those wide area networks.
+4:52
+It's very common to see internet providers
+4:54
+and wide area network providers use fiber
+4:57
+in the core of their network because it
+4:59
+does provide so much speed and so much
+5:01
+bandwidth over a long distance.
+5:03
+This is where you would see things
+5:05
+like SONET rings and Wavelength Division Multiplexing, or WDM.
+5:09
+But you might also find that fiber is
+5:11
+finding its way to your home.
+5:13
+Many organizations are putting fiber into the ground
+5:16
+and to your house, providing bandwidths and capabilities
+5:20
+that we simply don't have on copper networks.
+5:23
+If you're part of a company that has many different locations
+5:26
+in a single city, you can usually connect those together
+5:29
+at higher speeds using Metro Ethernet,
+5:32
+or Metro-E. This is a type of connectivity that's usually
+5:36
+within a very small geographic area,
+5:38
+but it does allow you to connect those locations using
+5:41
+very high-speed networks.
+5:43
+Another nice part about metro Ethernet
+5:45
+is that it is Ethernet.
+5:47
+At both sides of the connection, the provider simply
+5:49
+hands you off an Ethernet connection
+5:51
+that you can plug into a normal Ethernet switch.
+5:54
+Inside of the provider network, of course,
+5:57
+it's usually some type of higher speed connectivity
+5:59
+over fiber optics.
+6:01
+So it's very common for the provider
+6:03
+to use wavelength-division multiplexing or SONET
+6:06
+rings inside of their network, but what you see on your side
+6:10
+is simply an Ethernet connection.
+
+
+When we think about connecting to the internet, we often imagine using Wi-Fi or plugging in an Ethernet cable. However, there's another method: satellite networking. This involves sending and receiving signals to and from satellites in space to access the internet. While it offers good bandwidth, it's relatively costly due to the equipment needed.
+
+One emerging player in this field is Starlink, promising faster speeds and potentially making satellite networking more common. This technology is particularly useful for remote areas without other connectivity options. However, satellite connections often suffer from high latency, which Starlink aims to reduce significantly.
+
+Moving on to traditional methods, copper cables are commonly used for Ethernet connections. They're affordable but have limited bandwidth. For higher speeds, fiber optic cables are preferred, though they're more expensive to install and repair. Fiber offers blazing-fast speeds over long distances, making it ideal for wide area networks.
+
+DSL and cable broadband are other options utilizing copper cables, providing varying speeds depending on factors like distance from the central office. Cable broadband uses a standard called DOCSIS to transmit data over coaxial cables, offering speeds ranging from 50 Mbps to 1 Gbps or more.
+
+Metro Ethernet, or Metro-E, is another high-speed option for connecting multiple locations within a city using Ethernet connections. It's convenient as it integrates seamlessly with standard Ethernet switches, even though the provider's network infrastructure might use advanced technologies like SONET rings or wavelength-division multiplexing.
+
+
+
+
+
+Understanding Different Internet Connection Technologies
+This video explains various internet connection technologies including satellite, copper (DSL, cable modem), fiber optic, and Metro Ethernet.
+
+Types of Internet Connection Technologies
+
+Satellite:
+
+Uses satellites in space to transmit data.
+Relatively high cost but offers good bandwidth (50 Mbps download, 3 Mbps upload).
+High latency (up to 250ms historically, but Starlink promises lower latency).
+Prone to disruptions during rain showers.
+Ideal for remote locations with no other options.
+Copper:
+
+More affordable than other options.
+
+Limited bandwidth compared to fiber.
+
+DSL (Digital Subscriber Line):
+
+Uses existing telephone lines for internet connectivity.
+Download speeds up to 200 Mbps, upload speeds up to 20 Mbps.
+Limited distance (around 10,000 feet from the central office).
+Cable Modem:
+
+Uses coaxial cables for internet connectivity.
+Often includes digital TV and voice services.
+Speeds ranging from 50 Mbps to 1 Gbps depending on the DOCSIS version.
+Fiber Optic:
+
+Uses light pulses for data transmission.
+Most expensive option but offers the highest speeds and bandwidth.
+Ideal for long distances and large data transfer needs.
+Becoming increasingly available for home internet connections.
+Metro Ethernet:
+
+High-speed Ethernet connection for businesses with locations in a close geographic area.
+Provides very fast and reliable connectivity between locations.
+Uses fiber optic cables in the provider's network but connects to your network with a standard Ethernet connection.
+Choosing the Right Connection Technology
+
+The choice of internet connection technology depends on factors like:
+
+Location: Availability of different options in your area.
+Budget: Cost of installation and monthly fees.
+Speed Needs: Required download and upload speeds for your internet usage.
+Reliability: Importance of consistent and uninterrupted connection.
+
+
+
+
